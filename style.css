@@ -1,0 +1,73 @@
+
+body{
+   overflow-x: hidden; 
+}
+
+@media (max-width:768px) {
+    ul{
+        background-color: rgb(229, 119, 181);
+        color: antiquewhite;
+    }
+    li:hover{
+        background-color: antiquewhite;
+    }
+}
+.hero1:hover{
+    background-color: rgb(241, 163, 163);
+    border-radius: 20px;
+     cursor: pointer;
+}
+.hero2:hover{
+    background-color:rgb(220, 170, 135);
+    border-radius: 20px;
+     cursor: pointer;
+
+}
+.hero3:hover{
+    background-color:rgb(241, 217, 185);
+    border-radius: 20px;
+      cursor: pointer;
+}
+.hero4:hover{
+      background-color: rgb(243, 178, 200);
+    border-radius: 20px;
+      cursor: pointer;
+}
+.img{
+    filter: drop-shadow(20px 20px 5px gray);
+    transition: all 2s;
+}
+.img:hover{
+    transform: scale(1.1);
+}
+.plus{
+    transition: all 3x;
+    cursor: pointer;
+}
+.plus:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.card{
+    box-shadow: 8px 8px 5px rgb(230, 228, 228); 
+    cursor: pointer;
+}
+.menu1{
+justify-content: center;
+position: relative;
+ top: 30px;
+
+}
+.menu2{
+   position: relative;
+    top: 60px;
+}
+.star{
+    color: rgb(204, 71, 116);
+}
+.icon{
+margin-top: 10px;
+}
+.icon:hover{
+    color: rgb(204, 71, 116);
+}
